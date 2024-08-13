@@ -20,6 +20,8 @@ include("io/msh.jl")
 include("io/gts.jl")
 include("io/ifs.jl")
 
+#test
+
 """
     load(fn::File{MeshFormat}; pointtype=Point3f, uvtype=Vec2f,
          facetype=GLTriangleFace, normaltype=Vec3f)
